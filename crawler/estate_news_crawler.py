@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import requests
 import re
 import multiprocessing as mp
+from multiprocessing import freeze_support
 
 date_list = []
 today = datetime.datetime.today()
@@ -27,18 +28,23 @@ for day in date_list:
     for num in [1,11,21]:
         urls_list.append(base_url.format(day,day,str(num)))
 
-link_list = []
+manager = mp.Manager()
+link_list = manager.list()
+
 def get_url_with_date(urll):
+    global link_list
     now_req    = requests.get(urll,headers=header).text
-    now_search = BeautifulSoup(now_req,'html').find_all('div',class_='info_group')
+    now_search = BeautifulSoup(now_req,'html.parser').find_all('div',class_='info_group')
 
     for parts in now_search:
-        if parts.find_all('a',href=re.compile('^https://news.naver.com')):
+        if parts.find_all('a',href=re.compile('^https://news.naver.com')) == []:
             pass
         else:
             link_found = parts.find_all('a',href = re.compile('^https://news.naver.com'))[0]['href']
             link_list.append(link_found)
 
 if __name__ == '__main__':
+    freeze_support()
     pool = mp.Pool(mp.cpu_count())
     pool.map(get_url_with_date,urls_list)
+    print(link_list)

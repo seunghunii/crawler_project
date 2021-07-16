@@ -7,8 +7,8 @@ import requests
 import re
 import multiprocessing as mp
 
-links_df = pd.read_csv('C:/Users/rsh15/Desktop/seunghuni/crawler_project/data_save/estate_news/links_df.csv')
-links_list = links_df['links']
+links_df = pd.read_csv('C:/Users/shic/Desktop/crawler_project/data_save/estate_news/links_df.csv')
+links_list = links_df[['links']]
 
 header = {
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -33,5 +33,7 @@ def estate_news_cralwer(link):
     else:
         article_contents.append(soup.find_all('div',id='articleBodyContents')[0].text)
 
-pool = mp.Pool(mp.cpu_count())
-pool.map(estate_news_cralwer,links_list)
+
+if __name__ == "__main__":
+    pool = mp.Pool(mp.cpu_count())
+    pool.map(estate_news_cralwer,links_list)
