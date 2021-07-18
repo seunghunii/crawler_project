@@ -37,3 +37,5 @@ def estate_news_cralwer(link):
 if __name__ == "__main__":
     pool = mp.Pool(mp.cpu_count())
     pool.map(estate_news_cralwer,links_list)
+
+print('sdt')
