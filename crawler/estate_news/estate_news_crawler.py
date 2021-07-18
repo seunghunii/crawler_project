@@ -25,14 +25,12 @@ header = {
 
 urls_list = []
 for day in date_list:
-    for num in [1,11,21]:
+    for num in [1,11,21,31,41]:
         urls_list.append(base_url.format(day,day,str(num)))
 
-manager = mp.Manager()
-link_list = manager.list()
+link_list = []
 
-def get_url_with_date(urll):
-    global link_list
+def get_naver_news_url(urll):
     now_req    = requests.get(urll,headers=header).text
     now_search = BeautifulSoup(now_req,'html.parser').find_all('div',class_='info_group')
 
@@ -43,8 +41,11 @@ def get_url_with_date(urll):
             link_found = parts.find_all('a',href = re.compile('^https://news.naver.com'))[0]['href']
             link_list.append(link_found)
 
+    return link_list
+
 if __name__ == '__main__':
     freeze_support()
     pool = mp.Pool(mp.cpu_count())
-    pool.map(get_url_with_date,urls_list)
-    print(link_list)
+    result = pool.map(get_naver_news_url,urls_list)
+    result_df = pd.concat(result,axis=0)
+    

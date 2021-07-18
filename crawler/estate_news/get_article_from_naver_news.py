@@ -5,12 +5,8 @@ import datetime
 from bs4 import BeautifulSoup
 import requests
 import re
-import time
 import multiprocessing as mp
-from IPython.core.interactiveshell import InteractiveShell
-InteractiveShell.ast_node_interactivity = 'all'
 
-start_time = datetime.datetime.now()
 links_df = pd.read_csv('C:/Users/shic/Desktop/crawler_project/data_save/estate_news/links_df.csv')
 
 base_url = 'https://search.naver.com/search.naver?where=news&query=%EB%B6%80%EB%8F%99%EC%82%B0114&sm=tab_opt&sort=0&photo=0&field=0&pd=3&ds={}&de={}&start={}'
