@@ -70,16 +70,9 @@ def kb_land_crawler(dates):
             
             jisu_date_parser = jisu_parser[0].replace(' ','').split(',')
             
-            if int(jisu_date_parser[1]) < 9:
-                date_list_jisu.append(
-                   ','.join([jisu_date_parser[0],
-                              str(int(jisu_date_parser[1]) + 1),
-                              jisu_date_parser[2]])
-                )
-            else:
-                date_list_jisu.append(
-                    ','.join(jisu_date_parser))
-                
+            date_list_jisu.append(','.join([jisu_date_parser[0],
+                                            str(int(jisu_date_parser[1]) + 1),
+                                            jisu_date_parser[2]]))
             data_list_jisu.append(jisu_parser[1].replace(']','').replace(',',''))
             
         ret_b = re.search('var graphYn2 = [$](.+?);', tmp_req.text, re.S).group(1)
@@ -94,15 +87,9 @@ def kb_land_crawler(dates):
             
             rate_date_parser = rate_parser[0].replace(' ','').split(',')
             
-            if int(rate_date_parser[1]) < 9:
-                date_list_rate.append(
-                   ','.join([rate_date_parser[0],
-                             str(int(rate_date_parser[1]) + 1),
-                             rate_date_parser[2]]))
-            else:
-                date_list_rate.append(
-                    ','.join(rate_date_parser))
-                
+            date_list_rate.append(','.join([rate_date_parser[0],
+                                            str(int(rate_date_parser[1]) + 1),
+                                            rate_date_parser[2]]))
             data_list_rate.append(rate_parser[1].replace(']','').replace(',',''))
         
         return_dataframe = pd.DataFrame({
