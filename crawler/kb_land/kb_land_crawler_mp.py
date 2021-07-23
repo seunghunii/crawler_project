@@ -24,11 +24,10 @@ region_data = pd.read_csv('C:/Users/shic/Desktop/crawler_project/data_save/kb_la
                                    'small_region_code' : str,
                                    'small_region_name' : str})
 region_data = region_data[region_data['small_region_name']!='(전체)']
-region_code = region_data[region_data['big_region_name'].isin(['서울','경기','인천'])]
 
 # make date list([year,month])
 date_list = []
-for year in range(2010,2022):
+for year in range(2012,2022):
     year = str(year)
     for month in range(1,13):
         if int(month) < 10:
@@ -48,7 +47,7 @@ def kb_land_crawler(dates):
     month = dates[1]
 
     df_list = []
-    for region in region_code.iterrows():
+    for region in region_data.iterrows():
         tmp_url = base_url.format(region[1]['big_region_code'],  # 대지역코드
                                   region[1]['small_region_code'],  # 중지역코드
                                   year, month)
@@ -93,14 +92,14 @@ def kb_land_crawler(dates):
             data_list_rate.append(rate_parser[1].replace(']','').replace(',',''))
         
         return_dataframe = pd.DataFrame({
-            'entered_year'     : year,
-            'entered_month'    : month,
-            'big_region_name'  : region[1]['big_region_name'],
-            'small_region_name': region[1]['small_region_name'],
-            'date_list_jisu'   : date_list_jisu,
-            'data_list_jisu'   : data_list_jisu,
-            'date_list_rate'   : date_list_rate,
-            'data_list_rate'   : data_list_rate
+            '년'      : year,
+            '월'     : month,
+            '시/도'  : region[1]['big_region_name'],
+            '시/군/구': region[1]['small_region_name'],
+            #'date_list_jisu'   : date_list_jisu,
+            '지수'   : data_list_jisu,
+            #'date_list_rate'   : date_list_rate,
+            '증감률'   : data_list_rate
         })
         df_list.append(return_dataframe)
     
@@ -109,6 +108,6 @@ def kb_land_crawler(dates):
 if __name__ == '__main__':
     freeze_support()
     pool = mp.Pool(mp.cpu_count())
-    result = pool.map(kb_land_crawler,date_list)
+    result = pool.map(kb_land_crawler,date_list[0:10])
     result_df = pd.concat(result,axis=0)
-    result_df.to_csv('C:/Users/shic/Desktop/crawler_project/data_save/kb_land/kb_land_mp.csv',index=0)
+    result_df.to_csv('C:/Users/shic/Desktop/crawler_project/data_save/kb_land/kb_land_mp2.csv',index=0)

@@ -20,7 +20,7 @@ for num_day in range(1,(date_from_to.days)+1):
     tmp_date = str(tmp_date).split(' ')[0].replace('-','.')
     date_list.append(tmp_date)
 
-base_url = 'https://search.naver.com/search.naver?where=news&query=%EB%B6%80%EB%8F%99%EC%82%B0114&sm=tab_opt&sort=0&photo=0&field=0&pd=3&ds={}&de={}&start={}'
+base_url = 'C:/Users/shic/Desktop/crawler_project/crawler/estate_news/estate_news_crawler.py'
 
 header = {
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
