@@ -58,58 +58,21 @@ def kb_land_crawler(dates):
         # URL 접속
         tmp_req = requests.get(tmp_url, headers=header)
 
-        ret_a = re.search("var graphYn1 = [$](.+?);", tmp_req.text, re.S).group(1)
-        ret_a = ret_a.replace(".trim('[", "").replace("') == '' ? false: true", "").replace('Date.UTC(', '')
+        return_df = pd.DataFrame({
+            'year'    : year,
+            'month'   : month,
+            'region_b': region[1]['big_region_name'],
+            'region_s': region[1]['small_region_name'],
+            'req_text': tmp_req.text
+        },index=[0])
 
-        date_list_jisu = []
-        data_list_jisu = []
+        df_list.append(return_df)
 
-        jisu_split = ret_a.split('], [')
-        
-        for jisu in jisu_split:
-            jisu_parser = jisu.split('), ')
-            
-            jisu_date_parser = jisu_parser[0].replace(' ','').split(',')
-            
-            date_list_jisu.append(','.join([jisu_date_parser[0],
-                                            str(int(jisu_date_parser[1]) + 1),
-                                            jisu_date_parser[2]]))
-            data_list_jisu.append(jisu_parser[1].replace(']','').replace(',',''))
-            
-        ret_b = re.search('var graphYn2 = [$](.+?);', tmp_req.text, re.S).group(1)
-        ret_b = ret_b.replace(".trim('[", "").replace("') == '' ? false: true", "").replace('Date.UTC(', '')
-        rate_split = ret_b.split('], [')
-        
-        date_list_rate = []
-        data_list_rate = []
-        
-        for rate in rate_split:
-            rate_parser = rate.split('), ')
-            
-            rate_date_parser = rate_parser[0].replace(' ','').split(',')
-            
-            date_list_rate.append(','.join([rate_date_parser[0],
-                                            str(int(rate_date_parser[1]) + 1),
-                                            rate_date_parser[2]]))
-            data_list_rate.append(rate_parser[1].replace(']','').replace(',',''))
-        
-        return_dataframe = pd.DataFrame({
-            '년'      : year,
-            '월'     : month,
-            '시/도'  : region[1]['big_region_name'],
-            '시/군/구': region[1]['small_region_name'],
-            #'date_list_jisu'   : date_list_jisu,
-            '지수'   : data_list_jisu,
-            #'date_list_rate'   : date_list_rate,
-            '증감률'   : data_list_rate
-        })
-        df_list.append(return_dataframe)
-    
     return pd.concat(df_list,axis=0)
     
 if __name__ == '__main__':
     freeze_support()
     pool = mp.Pool(mp.cpu_count())
-    result = pool.map(kb_land_crawler,date_list[0:10])
+    result = pool.map(kb_land_crawler,date_list)
     result_df = pd.concat(result,axis=0)
-    result_df.to_csv(crawler_seunghun + 'data_save/kb_land/kb_land_mp2.csv',index=0)
+    result_df.to_csv(crawler_seunghun + 'data_save/kb_land/kb_land_req_text.csv',index=0)
