@@ -1,0 +1,1260 @@
+
+<!doctype html>
+
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no" />
+	
+<script type="text/javascript">
+var q_browserNavi =" ( KB부동산(LiivON)모바일웹 | 뉴스·자료실 | 통계/리포트 | KB부동산 통계정보 | 통계/리포트[주간] )";
+</script> 
+<title>통계/리포트[주간] ( KB부동산(LiivON)모바일웹 | 뉴스·자료실 | 통계/리포트 | KB부동산 통계정보 | 통계/리포트[주간] )</title><link rel="stylesheet" type="text/css" href="https://nimg1.kbstar.com/css/omland/slick.css">
+<link rel="stylesheet" type="text/css" href="https://nimg1.kbstar.com/css/omland/jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="https://nimg1.kbstar.com/css/omland/mweb_kbl.css?20200219">
+<link rel="stylesheet" type="text/css" href="https://nimg1.kbstar.com/css/omland/mweb_kbl_content.css?20200707">
+<script type="text/javascript" src="https://nimg1.kbstar.com/js/omland/lib/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="https://nimg1.kbstar.com/js/omland/lib/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://nimg1.kbstar.com/js/omland/lib/slick.min.js"></script>
+<script type="text/javascript" src="https://nimg1.kbstar.com/js/omland/lib/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="https://nimg1.kbstar.com/js/omland/common/mweb_kbl_common.js"></script>
+<script type="text/javascript" src="/omland/js/jquery-migrate-1.4.1.min.js"></script>
+
+<script type="text/javascript" src="https://oimg1.kbstar.com/js/common/jquery_bgiframe_min.js?201111281730" charset="utf-8"></script>
+<script type="text/javascript" src="https://oimg1.kbstar.com/js/common/jquery.validity.js?201111202030" charset="utf-8"></script>
+<script type="text/javascript" src="https://oimg1.kbstar.com/js/common/common.js?201806150000" charset="utf-8"></script>
+<script type="text/javascript" src="/omland/js/op_common.js" charset="utf-8"></script>
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+	
+	var _SITE_SystemLang = "KOR";
+	
+	
+	caq.setDomainName("nland"); 
+	caq.setSiteName("omland"); 
+	
+	$(function(){
+		caq.error.setErrorDiv(); 
+		caq.util.setUserAgent(); 
+	});
+//]]>
+</script>
+<script type="text/javascript" src="https://oimg1.kbstar.com/js/common/nprotect/op_netizen.js?201411072359"></script>
+
+<meta name="format-detection" content="telephone=no" />
+
+
+<script type="text/javascript" src="/omland/js/highstock.js?20180910104725" charset="utf-8"></script>
+<script type="text/javascript" src="/omland/js/exporting.js?20180910104738" charset="utf-8"></script>
+
+
+<script type="text/javascript" src="/omland/js/cayCommon.js?20180910104826" charset="utf-8"></script>
+
+
+<script type="text/javascript" src="/omland/js/kakao-loader.js?20180910104826" charset="utf-8"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+	
+	
+	var gisIpAddress = "175.120.58.10";
+	var quicsMode = "RQ";
+	
+	$(function () {
+		//<![CDATA[
+		
+		if($("img[src='https://oimg1.kbstar.com/btn/btn_calendar.gif']").length > 0) {
+			$("img[src='https://oimg1.kbstar.com/btn/btn_calendar.gif']").attr("src", "http://nimg1.kbstar.com/img/kbland/web/icon/ico_calendar.gif").css({"verticalAlign": "middle", "margin": "0 3px"});
+		}
+		//]]>
+	});
+	
+//]]>
+</script>
+
+
+<style>.async-hide { opacity: 0 !important} </style><!-- Google Optimize_Hiding Code  -->
+<script type="text/javascript">
+//<![CDATA[
+	
+	// Google Analytics 사용여부 처리
+	var isSendGaPage = true;
+	
+	var optHidingId = "";
+	var tagManagerId = "";
+	var referrerUrl = "https://onland.kbstar.com/";
+	
+	var serverMode = "RQ";
+	
+	// 개발
+    if(serverMode == "DQ" || serverMode == "TQ") {
+		optHidingId = "GTM-NF6VGGR"; //개발
+		tagManagerId = "GTM-NQV46RC"; //개발
+	// 운영
+	} else {
+		optHidingId = "GTM-WXZ9RFT"; //운영
+		tagManagerId = "GTM-TZBRR8W"; //운영
+	}
+	
+	if(document.referrer.toLowerCase() == referrerUrl.toLowerCase()) {
+		var c = document.cookie.split('; ');
+		
+		for(var i in c) {
+			if(c[i].indexOf('referrer=') == 0) {
+				var r = c[i].slice(9);
+				Object.defineProperty(document, "referrer", {configurable: true, get : function(){ return r; }});
+				document.cookie = "referrer=;expires=" + new Date().toUTCString() + ";path=/";
+			}
+		}
+	}
+	
+	// Google Optimize_Hiding Code
+	(function(h){h.innerHTML+="<style>.async-hide { opacity: 0 !important} </style>";})(document.head);
+	(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+	h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+	(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+	})(window,document.documentElement,'async-hide','dataLayer',500,{optHidingId:true});
+	
+	// Google Tag Manager Code
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer',tagManagerId);
+	
+	$(document).ready(function(){
+		dataLayer.push({
+			'event': 'Page View',
+			'serverMode': (serverMode == 'DQ' ? 'test' : 'prod'),
+			'ipAddress': '175.120.58.0'
+		});
+	});
+//]]>
+</script>
+
+<script type="text/javascript">
+var readyFg = false;
+if (navigator.appName == "Microsoft Internet Explorer") { //IE 10 or Lower
+	readyFg = true;
+}
+
+if (!readyFg) {
+	var _ait = window["_ait"] || [];
+	
+	(function(_ait){
+		var d = document;
+		var g = d.createElement('script');
+		var s = d.getElementsByTagName('script')[0];
+		
+		try{
+			var sdk_date = new Date();
+			var sdk_yyyy = sdk_date.getFullYear();
+			var sdk_mm =''+ (sdk_date.getMonth()+1);
+			sdk_mm = sdk_mm.length==1?'0'+sdk_mm:sdk_mm;
+			var sdk_dd = ''+sdk_date.getDate();
+			sdk_dd = sdk_dd.length==1?'0'+sdk_dd:sdk_dd;
+			var sdk_hour = ''+sdk_date.getHours();
+			sdk_hour = sdk_hour.length==1?'0'+sdk_hour:sdk_hour;
+			var sdk_min = ''+sdk_date.getMinutes();
+			sdk_min = sdk_min.length==1?'0'+sdk_min:sdk_min;
+			
+			_ait.push( { 'ait.startTime': new Date().getTime(), 'event': 'ait.Start' });
+			g.type='text/javascript'; 
+			g.async=true; 
+			g.defer=true; 
+			g.charset='utf-8';
+			g.src='/omland/js/container_omland.js?' +sdk_yyyy+sdk_mm+sdk_dd+sdk_hour+sdk_min;
+			g.onerror = function(e){
+				g.src = '';
+			};
+			
+			s.parentNode.insertBefore(g,s);
+		}catch(e){
+			(window.$ || function(){})(function(){
+				$("body").append(g);
+			});
+		}
+	})(_ait);
+}
+
+var execSdk = function() {
+    var _ait = _ait || [];
+	_ait.push({'ait.startTime': (new Date().getTime()), 'event': 'ait.Start'});
+	var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	g.type='text/javascript'; g.async=true; g.defer=true; g.src='/omland/js/container_omland.js'; s.parentNode.insertBefore(g,s);
+};
+
+$(document).ready(function(){
+	if (readyFg) execSdk();
+});
+</script>
+
+<!-- 2020.03.05 abtest -->
+<script type="text/javascript" src="/ocom/js/cae_common_abtest.js"></script>
+<!--
+<script type="text/javascript" src="/ocom/js/cae_common_betatest.js"></script>
+-->
+
+</head>
+<body>
+
+	<div id="wrap">
+		<div id="headerWrap">
+			<!-- Layout: HEADER -->
+			<header id="HEADER">
+<div id="b062843">
+
+
+<script type="text/javascript">
+	$(function(){
+		
+		
+		
+		/*
+		//APP설치분기
+		var userAgent = navigator.userAgent;
+			if((userAgent.match(/iPhone/i))){
+				$(".app_txt").attr("href", "https://itunes.apple.com/kr/app/id597333937?mt=8");
+			} else if(userAgent.match(/android/i)) {
+				$(".app_txt").attr("href", "https://play.google.com/store/apps/details?id=com.kbstar.mrstar");
+			} else {
+		}
+		*/
+		
+		$(function() {
+			$('.clicks').on('click',function() {
+				$(this).parent().hasClass('on') ? $(this).parent().css('height','100px').removeClass('on') : $(this).parent().css('height','1000px').addClass('on');
+			});
+			MKBLAND.lyPopup();
+			$('[data-target-layer]').on('click', function() {
+				// console.log($(this).data('target-layer'));
+				$($(this).data('target-layer')).show().animate({'left': 0}, 200);
+			});
+			$('[data-hidden-layer]').on('click', function() {
+				// console.log($(this).data('target-layer'));
+				$($(this).data('hidden-layer')).hide();//.animate({'left': 0}, 200);
+			});
+		});
+	});
+	
+	/**
+	 * KB부동산 로그인
+	 * @ignore
+	 * @return void
+	 * @private
+	 */
+	function okblandLogin(type, nextParam) {
+		if($.trim(type) == "2") {
+			document.getElementById("loginForm").action = "/quics?page=C065088";
+		} else {
+			document.getElementById("loginForm").action = "/quics?page=C065088";
+		}
+		
+		if($.trim(nextParam) != "") {
+			$("#loginForm input[name=_nextPage]").val($("#loginForm input[name=_nextPage]").val() + "&" + nextParam);
+		}
+		
+// 		document.getElementById("loginForm").submit();
+		submitGet(document.loginForm);
+	}
+	
+	/**
+	 * KB부동산 로그인
+	 * @ignore
+	 * @return void
+	 * @private
+	 */
+	function okblandLoginNew() {
+		document.getElementById("loginForm").action = "/quics?page=C065088";
+		
+		submitGet(document.loginForm);
+	}
+	
+	/**
+	 * KB부동산 로그아웃
+	 * @ignore
+	 * @return void
+	 * @private
+	 */
+	function okblandLogout() {
+		
+		$("#loginForm input[name=_nextPage]").val("page=omland");
+		
+		document.getElementById("loginForm").action = "/quics?page=C059900";
+// 		document.getElementById("loginForm").submit();
+		submitGet(document.loginForm);
+	}
+	
+	/**
+	 * 인터넷뱅킹ID 로그인 
+	 * @ignore
+	 * @return void
+	 * @private
+	 */
+	function obankLogin() {
+		
+		
+		
+		document.getElementById("loginForm").action = "/quics?page=C061375";
+// 		document.getElementById("loginForm").submit();
+		submitGet(document.loginForm);
+	}
+	
+	/**
+	 * SNS간편 로그아웃 콜백
+	 * @ignore
+	 * @return void
+	 * @private
+	 */
+	function snsLogoutCallback(data) {
+		if(data || data == "true") {
+			var f = document.loginForm;
+			f.action = "/quics?page=C061375";
+//	 		f.submit();
+			submitGet(f);
+		}
+	}
+	
+	/**
+	 * 뒤로가기 이벤트
+	 */
+	function backMenu() {
+		history.back(-1);
+	}
+	
+	/**
+	 * 전체메뉴 닫기
+	 */
+	function closeAllMenus() {
+		
+		var mainId = $('[data-target-layer]').data('target-layer');
+		
+		if($(mainId).is(":visible")) {
+			$(mainId).hide().animate({'right': 0}, 200);
+		} else {
+			$(mainId).show().animate({'left': 0}, 200);
+		}
+	}
+	
+	/**
+	 * 통합검색호출
+	 * 
+	 * @param {String} type - 명칭/주소[1], 지역검색[2], 지하철[3]
+	 * @param {String} areaFlag - 법정동코드 참조여부
+	 * @param {String} closeMenuFlag - 전체메뉴 닫힘여부
+	 */
+	function callSearchPop(type, areaFlag, closeMenuFlag) {
+		
+		var comp = "b062903"; // 디폴트 명칭/주소
+		var areaCd = "";
+		
+		if($.trim(areaFlag) == "1") {
+			areaCd = $("#IBF input[name=법정동코드]").val();
+		}
+		
+		if(type == "1") {
+		} else if(type == "2") {
+			comp = "b062851";
+		} else if(type == "3") {
+			comp = "b062852";
+		}
+		
+		var url = "/quics?page=C059909&cc=b028364:" + comp + "&법정동코드=" + areaCd + "&QSL=F";
+		
+		caq.popup.iFrameShow("callSearchPop", caq.util.encodeURI(url), "callSearchPop", $(document).width(), $(document).height(), 10003);
+		
+		if($.trim(closeMenuFlag) == "1") {
+			closeAllMenus();
+		}
+	}
+	
+</script>
+
+<form name="loginForm" id="loginForm" method="post" action="/quics?page=C059900">
+	<input type="hidden" name="_nextPage" value="page=C060737" />
+	<input type="hidden" name="_REFERER_SITE_NAME" value="omland" />
+</form>
+
+<form name="obankForm" id="obankForm" method="post" action="https://obank.kbstar.com/quics?page=obank">
+	<input type="hidden" name="QSL" value="F" />
+</form>
+
+
+<div class="navi_header">
+		
+	<h1>통계/리포트</h1>
+			
+</div>
+	
+<div id="allMenus" class="all_menu_area">
+	<div class="dimm_allmenu"></div>
+	<div class="inner">
+		<button type="button" class="close_allmenu" data-hidden-layer="#allMenus">전체메뉴 닫기</button>
+		<div class="topmenu">
+			<a href="/quics?page=omland" class="ic_menu home">홈</a>
+		<!-- 			<a href="#" class="ic_menu login" onclick="okblandLogin('1'); return false;">로그인</a> -->
+			<a href="#" class="ic_menu login" onclick="okblandLoginNew(); return false;">로그인</a>
+			
+		</div>
+		
+		<div class="tit_name">KB부동산 리브온입니다.</div>
+			
+		<div class="allmenu_content">
+			<div class="fast_search">
+				<strong class="tit">매물 · 시세 빠른검색</strong>
+				<div class="fast_menu">
+				<!--	<a href="/quics?page=C059862&메인검색여부=1&메인검색타입=1" class="f_car">교통</a> -->
+					<a href="#" class="f_loc" onclick="callSearchPop('2', '', '1'); return false;">지역</a>
+					<a href="#" class="f_suw" onclick="callSearchPop('3', '', '1'); return false;">지하철</a>
+					<a href="/quics?page=C059862" class="f_map">지도</a>
+					<a href="#"></a>
+				</div>
+			</div>
+			<div class="allmenu_list">
+				<ul>    <li>        <a href="/quics?page=C059863"><span class="sub sub1">분양</span></a><ul class="depth2">    <li><a href="/quics?page=C059864">분양/청약정보</a></li>    <li><a href="/quics?page=C059865">금주의 분양</a></li>    <li><a href="/quics?page=C059866">이슈단지</a></li>    <li><a href="/quics?page=C061030">개발소식</a></li>    <li><a href="/quics?page=C061031">부동산 알짜정보</a></li></ul>    </li>    <li>        <a href="/quics?page=C059871"><span class="sub sub2">대출</span></a><ul class="depth2">    <li><a href="/quics?page=C059872">대출상품</a></li></ul>    </li>    <li>        <a href="/quics?page=C059875"><span class="sub sub3">뉴스·자료실</span></a><ul class="depth2">    <li><a href="/quics?page=C059876">부동산 뉴스</a></li>    <li><a href="/quics?page=C060746">전문가 칼럼</a></li>    <li><a href="/quics?page=C059878">통계/리포트</a></li></ul>    </li>    <li>        <a href="/quics?page=C059881"><span class="sub sub6">상권분석</span></a><ul class="depth2">    <li><a href="/quics?page=C063047">상권분석 바로가기</a></li></ul>    </li>    <li>        <a href="/quics?page=C059882"><span class="sub sub4">MY부동산</span></a><ul class="depth2">    <li><a href="/quics?page=C061032">우리집 현황</a></li>    <li><a href="/quics?page=C061033">내집 내놓기</a></li>    <li><a href="/quics?page=C059885">관심정보</a></li>    <li><a href="/quics?page=C061364">최근 본 단지</a></li>    <li><a href="/quics?page=C061365">최근 본 매물</a></li>    <li><a href="/quics?page=C062384">개인정보 동의/해제</a></li></ul>    </li>    <li>        <a href="/quics?page=C059888"><span class="sub sub5">고객센터</span></a><ul class="depth2">    <li><a href="/quics?page=C059889">공지사항</a></li>    <li><a href="/quics?page=C059890">FAQ</a></li>    <li><a href="/quics?page=C059891">문의하기</a></li>    <li><a href="/quics?page=C059892">KB App 소개</a></li>    <li><a href="/quics?page=C059893">이용약관</a></li>    <li><a href="/quics?page=C063810">서비스설명서</a></li>    <li><a href="/quics?page=C064655">위치기반서비스 이용약관</a></li>    <li><a href="/quics?page=C059894">부동산금융상담안내</a></li>    <li><a href="/quics?page=C059895">개인정보 처리방침</a></li></ul>    </li></ul>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</header>
+			<!--// Layout: HEADER -->
+		</div>
+
+		<!-- Layout: CP -->
+		<div id="CP" class="cp_content">
+			
+<div id="b063140">
+
+
+<script type="text/javascript">
+
+</script>
+
+<!-- mainGNBType 01 = 메인 GNB , 02 = 매물시세 , 상권분석 GNB , 03 = 3DEPTH 전용  , agencyGnbFlag == true 공인중개사전용관-->
+		<div class="menu_3depth">
+			<div class="inner"><ul><li class="on"><a href='/quics?page=C060736'>KB부동산 통계정보</a> </li><li><a href='/quics?page=C060741'>월간 KB주택가격동향</a> </li><li><a href='/quics?page=C060742'>주간 KB주택시장동향</a> </li><li><a href='/quics?page=C060735'>KB경영연구소 리포트</a> </li></ul></div>
+		</div>
+	
+</div>
+
+<div id="b062885">
+
+	<script type="text/javascript" src="/com/js/common.js"></script>
+	<script type="text/javascript" src="/com/js/cbh/common.js"></script>
+	<script type="text/javascript">
+	
+		var weekBaseYmd = "";
+		
+	 	function lpad(str, len, ch) {
+			str = String(str);
+			while(typeof str != 'undefined' && str != '' && str.length < len) {
+				str = String(ch) + str;
+			}
+			return str;
+		}
+
+	  	function setSelectBox(larInputId, midInputId, curLarCd, curMidCd) {
+			
+			var larBox = $("#"+larInputId);
+			var midBox = $("#"+midInputId);
+			
+			if (curLarCd == "" ) {
+				curLarCd = "9800000000";
+			}
+			if (curMidCd == "" ) {
+				curMidCd = curLarCd;
+			}
+			var larSb = "";
+			var midSb = "";
+			
+	        $.ajax({
+	            url: "/quics?asfilecode=831144&QSL=F",
+	            contentType : "application/x-www-form-urlencoded;charset=UTF-8",
+	            type        : "post",
+	            data        : {"법정동대지역코드":curLarCd},
+	            dataType    : "json",
+	            error: function (data, status, err){
+	            	try{
+	        		}catch(e){}
+	            },
+	            success: function(data, status) {
+	            	
+					obj = data.msg.servicedata;
+					larArr = obj.ARRAY수1;
+					midArr = obj.ARRAY수2;
+	              
+					for(var i = 0; i < larArr.length; i ++) {
+						
+						larSb += "<option value=\"";
+						larSb += larArr[i].법정동코드;
+						larSb += "\" ";
+						if ( curLarCd == larArr[i].법정동코드 ) {
+							larSb += "selected"; 			
+						}
+						larSb += ">"; 			
+						larSb += larArr[i].지역명;
+						larSb += "</option>";
+						
+					}
+					
+		      		larBox.html(larSb);
+		      		 
+	 	      		midSb += "<option value=\"\" "; 			
+		      		if ( curMidCd == curLarCd ) {
+		      			midSb += "selected"; 			
+		      		}
+		      		midSb += " >(전체)</option>";
+		      		for(var i = 0; i < midArr.length ; i++) {
+		      			midSb += "<option value=\"";
+		      			midSb += midArr[i].법정동코드;
+		      			midSb += "\" ";
+						if ( curMidCd == midArr[i].법정동코드 ) {
+							midSb += "selected";
+						}
+						midSb += ">"; 			
+						midSb += midArr[i].지역명;
+						midSb += "</option>";
+		      		}
+		      		midBox.html(midSb);
+	            },
+	            complete: function () {
+	
+		      		if (!$('.top_search_box').is(":visible")) {
+		      			
+			      		$(".top_search_box").show();
+			      		
+		      		}
+		      		
+	            }
+	         
+	        });
+	    }  
+	
+	    //지역조회
+	    function searchList(){
+	        var form = document.IBF;
+	        form.action = "/quics?page=C060737";
+	        form.target = "";
+	        //form.submit();
+	        submitGet(form);
+	        return false;   	
+	    }
+	
+	    // 통계구분
+	    $(function() {
+	    	
+	    	setSelectBox("법정동대지역코드","법정동중지역코드","","");
+	    	weekBaseYmd = "2021.07.19";
+	    	setWeekList(1);
+	    	
+	    	$('label').click(function() {
+	    		$("input[type=radio][name=통계구분]").attr("checked", false);
+	    		$("input[type=radio][name=통계구분]").parent().removeClass("checked");
+	    		$(this).parent().children("input[type=radio][name=통계구분]").attr("checked", true);
+	    		$(this).parent().addClass("checked");
+	    	});
+	
+	    	$("#법정동대지역코드").on("change", function() {
+	    		setSelectBox("법정동대지역코드","법정동중지역코드",$(this).val(),$("#법정동중지역코드").val());
+	    	});
+	    	
+	    });
+	    
+		function ozReportDownLoad() {
+			var _emerDstic = '1'; // 비상상태구분
+			var isLogin = '0'; // 로그인여부
+			
+			if(_emerDstic == '2' && isLogin == '0') {
+				if(confirm("로그인후에 사용할 수 있는 기능입니다.\n지금 로그인 하시겠습니까?")) {
+					okblandLogin();
+					return;
+				}
+			} else {
+				var frm = document.ozFrm;
+				frm.action = '/quics?page=&QAction=835000&RType=json';
+				if (_emerDstic != "3") {
+					doAjaxAction(frm, 'statcReportInqChk', true);
+				}
+				return false;
+			}
+		}
+		
+		function statcReportInqChk (data) {
+			var resultdata = data.msg.servicedata;
+			checkAction = false;
+			if (resultdata.RESULT == true) {
+				goDownload();
+			} else {
+				makeReport();
+			}
+			return false;
+		}
+		
+		function makeReport() {
+			var frm = document.ozFrm;
+			frm.action = '/quics?page=&QAction=831994&RType=json';
+			doAjaxAction(frm, 'makeReport_CallBack');
+			return false;
+		}
+		
+		function makeReport_CallBack(data) {
+			//S:성공, F:실패 
+	 		if (data.msg.common.status == "S") {
+	 			goDownload();
+	 		} else {
+	 			alert("통계보고서 생성에 실패하였습니다.");
+	 		}
+		}
+		
+		function goDownload() {
+			formName = "통계보고서";
+			var param =	'PDF기준년='+$("[name='PDF기준년']").val()+
+								'&PDF기준월='+$("[name='PDF기준월']").val()+
+								'&PDF기준주='+$("[name='PDF기준주']").val()+
+								'&PDF법정동대지역코드='+$("[name='PDF법정동대지역코드']").val()+
+								'&PDF법정동중지역코드='+$("[name='PDF법정동중지역코드']").val()+
+								'&PDF지역명='+$("[name='PDF지역명']").val();
+			OpenStreamDownload(formName, "835587", param); //[KB부동산]OZ 스케쥴러 보고서 다운로드
+			return false;
+		}
+		
+		function cleanOzFrm() {
+			$("[name='PDF기준년']").val("");
+			$("[name='PDF기준월']").val("");
+			$("[name='PDF기준주']").val("");
+			$("[name='PDF법정동대지역코드']").val("");
+			$("[name='PDF법정동중지역코드']").val("");
+			$("[name='PDF지역명']").val("");
+			return false;
+		}
+		
+		function setOzFrm() {
+			$("[name='PDF기준년']").val($("[name='기준년']").val());
+			$("[name='PDF기준월']").val($("[name='기준월']").val());
+			$("[name='PDF기준주']").val($("[name='기준주']").val());
+			$("[name='PDF법정동대지역코드']").val($("[name='법정동대지역코드'] option:selected").val());
+			$("[name='PDF법정동중지역코드']").val($("[name='법정동중지역코드'] option:selected").val());
+			if ($("[name='법정동중지역코드'] option:selected").val() != "") {
+				$("[name='PDF지역명']").val($("[name='법정동중지역코드'] option:selected").text());
+				if ( "1198000000" != $("[name='법정동중지역코드'] option:selected").val() && "1199000000" != $("[name='법정동중지역코드'] option:selected").val() ) {
+					$("[name='PDF지역명']").val($("[name='법정동대지역코드'] option:selected").text());
+				}
+			} else {
+				$("[name='PDF지역명']").val($("[name='법정동대지역코드'] option:selected").text());
+			}
+			return false;
+		}
+		
+		function setWeekList(startYn) {
+			
+			var baseYear = $("#기준년 option:selected").val();
+			var baseMonth = $("#기준월 option:selected").val();
+			
+			var params = {"기준년":baseYear,"기준월":baseMonth};
+			
+	        $.ajax({
+	            url: "/quics?asfilecode=833299&QSL=F",
+	            contentType : "application/x-www-form-urlencoded;charset=UTF-8",
+	            type        : "post",
+	            data        : params,
+	            dataType    : "json",
+	            error: function (result, status, err){
+	            	try{
+	        		}catch(e){}
+	            },
+	            success: function(data) {
+	            	var obj = data.msg.servicedata;
+	    			var arr = obj.ARRAY수3; // 기준주목록
+	    			var sb = "";
+	    			var date = new Date();
+	    			var y = date.getFullYear();
+	    			var m = date.getMonth()+1;
+	    			if (m < 10) {
+	    				m = "0"+m;
+	    			}
+	    			var d = date.getDate();
+	    			if (d < 10) {
+	    				d = "0"+d;
+	    			}
+	    			sb += "<option value=\"\">(전체)</option>";
+	    			for(var i = 0; i < arr.length; i ++) {
+	    				if (Number(arr[i].기준년월일.substring(0,4)+""+arr[i].기준년월일.substring(4,6)+""+arr[i].기준년월일.substring(6,8)) <= Number(y+""+m+""+d)) {
+		    				sb += "<option value=\"";
+		    				sb += arr[i].기준년월일;
+		    				sb += "\" ";
+		    				if ( weekBaseYmd == (arr[i].기준년월일.substring(0,4)+"."+arr[i].기준년월일.substring(4,6)+"."+arr[i].기준년월일.substring(6,8)) ) {
+		    					sb += "selected";
+		    				}
+		    				sb += ">"; 			
+		    				sb += arr[i].기준년월일.substring(0,4);
+		    				sb += "-";
+		    				sb += arr[i].기준년월일.substring(4,6);
+		    				sb += "-";
+		    				sb += arr[i].기준년월일.substring(6,8);
+		    				sb += "</option>";
+		    			}
+	    			}
+	    			$("#기준주").html(sb);
+	    			
+		      		if (startYn == 1) {
+		      	  		cleanOzFrm();
+		      	  		setOzFrm();
+		      		}
+	    			
+	            }
+	        });
+	        
+		}
+	  
+		function chngYear() {
+			var setMon = ""; 
+			var tmp = $("#기준월").val();
+			$("#기준월").empty();
+			var date = new Date();
+			var y = date.getFullYear();
+			var m = date.getMonth()+1;
+			var maxMon = 12;
+			if (y == $("#기준년").val()) {
+				maxMon = m;
+				if(tmp > m) {
+					setMon = m;
+					if (m < 10) {
+						setMon = "0"+m;
+					}
+				} else {
+					setMon  = tmp;
+				}
+			} else {
+				setMon  = tmp;
+			}
+			for (var i = 1; i <= maxMon ; i++) {
+				if (i < 10) {
+					$("#기준월").append("<option value='0"+i+"'>"+i+"월</option>");
+				}else {
+					$("#기준월").append("<option value='"+i+"'>"+i+"월</option>");
+				}
+			}
+			$("#기준월").val(setMon).prop("selected", true);
+		}
+		
+		function goTab() {
+			var frm = document.IBF;
+			frm.action = '/quics?page=C060738';
+			//frm.submit();
+			submitGet(frm);
+		}
+		
+	</script>
+	<form id="ozFrm" name="ozFrm" method="post" action="">
+		<input type="hidden" name="PDF기준년" /> 
+		<input type="hidden" name="PDF기준월" /> 
+		<input type="hidden" name="PDF기준주" /> 
+		<input type="hidden" name="PDF법정동대지역코드" /> 
+		<input type="hidden" name="PDF법정동중지역코드" /> 
+		<input type="hidden" name="PDF지역명" /> 
+	</form>
+	<div id="contentWrap">
+		<div class="content_inner">
+			<div class="content_body">
+				<div class="news_data">
+					<div data-tabs-static="true" class="tabs_area type1">
+			            <div class="slider wide">
+			                <div>
+								<!-- Start: Content Wrap Area -->
+								<div class="tabs_area type1">
+									<ul class="tab_btn subtab">
+										<li class="on"><a>주간</a></li>
+										<li><a href="#" onclick="goTab(); return false;">월간</a></li>
+									</ul>
+									<div class="tab_con">
+										<div class="on">
+											<!-- stat_analysis -->
+											<div class="stat_analysis">
+												<!-- card_box -->
+												<div class="card_box">
+													<div class="card_box_cont">
+														<div class="msg_area type2">
+															<h4>매매·전세 가격지수</h4>
+															<ul>
+															    <!-- 2019.01.24 위주아 기준년월 변경(2015.12 -> 2019.01) -->
+																<li>일정 시점(2019.01)의 주택의 매매·전세가격수준을100으로 환산하여 기준을 정하고, 시점별로 가격수준의 상대적인 변동률을 작성한 수치.<br>자세한 내용은 조사개요를 참고해주시기 바랍니다.</li>
+															</ul>
+														</div>
+														<div class="btn_wrap">
+															<a href="/quics?page=C060739" class="btn small type3 ico_arr">조사개요</a>
+															<a href="/quics?page=C060740" class="btn small type3 ico_arr">이용 시 유의점</a>
+														</div>
+													</div>
+												</div>
+												<!-- // card_box --><!-- card_box -->
+												<div class="card_box">
+													<div class="card_box_header blind">
+														<h3>기준지역 설정</h3>
+													</div>
+													<div class="card_box_cont card_box_cont_v1">
+														<!-- refer_area -->
+														<form name="IBF" action="" method="post" onsubmit="return false;">
+															<input type="hidden"  id="pdfParam" value=""/>
+															<div class="refer_area">
+																<div class="details">
+																	<div class="more_area">
+																		<div title="펼치기/접기" class="more_btn no_bg" id="moreBtn1">
+																			<strong class="btn_txt">기준지역 설정</strong>
+																		</div>
+																		<div class="more_cnt">
+																			<div class="setting">
+																				<fieldset>
+																					<legend>기준지역 설정 입력 영역</legend>
+																					<div class="group">
+																						<strong>지역</strong>
+																						<div class="form_list parts">
+																							<div class="form_area">
+																								<label for="법정동대지역코드" class="blind">시&#47;도</label>
+																								<div class="combobox">
+																									<select name="법정동대지역코드" id="법정동대지역코드"  title="시/도">
+																									</select>
+																								</div>
+																							</div>
+																							<div class="form_area">
+																								<label for="법정동중지역코드" class="blind">시&#47;군&#47;구</label>
+																								<div class="combobox">
+																									<select name="법정동중지역코드" id="법정동중지역코드"  title="시/군/구" >
+																									</select>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="group">
+																						<strong>년&#47;월 설정</strong>
+																						<div class="form_list parts">
+																							<div class="form_area">
+																								<label for="기준년" class="blind">년도</label>
+																								<div class="combobox">
+																									<select name="기준년"  id="기준년"  title="년도 선택"  onchange=" chngYear();  setWeekList(); return false;">
+																							        	<option value="2004">2004년</option><option value="2005">2005년</option><option value="2006">2006년</option><option value="2007">2007년</option><option value="2008">2008년</option><option value="2009">2009년</option><option value="2010">2010년</option><option value="2011">2011년</option><option value="2012">2012년</option><option value="2013">2013년</option><option value="2014">2014년</option><option value="2015">2015년</option><option value="2016">2016년</option><option value="2017">2017년</option><option value="2018">2018년</option><option value="2019">2019년</option><option value="2020">2020년</option><option value="2021" selected="selected">2021년</option>
+																							        </select>
+																								</div>
+																							</div>
+																							<div class="form_area">
+																								<label for="기준월" class="blind">월</label>
+																								<div class="combobox">
+																							        <select name="기준월"  id="기준월"  title="월 선택"  onchange=" setWeekList(); return false;">
+																							        	<option value="01">1월</option><option value="02">2월</option><option value="03">3월</option><option value="04">4월</option><option value="05">5월</option><option value="06">6월</option><option value="07" selected="selected">7월</option>
+																							        </select>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="group">
+																						<strong>주간 선택</strong>
+																						<div class="form_list parts">
+																							<div class="form_area">
+																								<label for="기준주" class="blind">주간</label>
+																								<div class="combobox">
+																									<select name="기준주"  id="기준주" >
+																									</select>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="btn_wrap both">
+																						<div class="w_fix">
+																							<button type="button"  class="btn case2 type2" onclick="$('#moreBtn1').trigger('click'); return false;">닫기</button>
+																							<button type="button"  class="btn case2 type4" onclick="javascript:searchList(); return false;">조회</button>
+																						</div>
+																					</div>
+																					
+																						<div class="btn_wrap both bord_top">
+																							<div class="w_fix">
+																								<button class="btn case2 type1"  onclick="ozReportDownLoad(); return false;"><span class="blind">현재 화면에 대한 내용 PDF로 저장</span>PDF 다운로드</button>
+																							</div>
+																						</div>
+																					
+																				</fieldset>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</form>
+														<!-- // refer_area --><!-- trend_area -->
+														<div class="trend_area" aria-hidden="true" tabindex="-1">
+															<h3>주간 아파트 매매가격 동향</h3>
+															<p class="date">(기준일: 2021.07.19)</p>
+															<ul class="chart_data_area">
+																<li class="tag"><span>매매</span></li>
+																<!-- [D] strong 태그에 상승시 up 클레스 / 하락시 down 클레스 / 변동없을시 클레스 제거 2018.10.25 -->
+																<li class="data">
+																	<span>가격지수</span>
+																	<strong>122.6</strong>
+																</li>
+																<!-- [D] strong 태그에 상승시 up 클레스 / 하락시 down 클레스 / 변동없을시 클레스 제거 2018.10.25 -->
+																<li class="data">
+																	<span>변동률</span>
+																	<strong class="up">0.41%</strong>
+																</li>
+															</ul>
+															<div class="chart">
+																
+<script type="text/javascript">
+	
+	$(function() {
+	
+		
+			var divWidth = $('.chart').width();
+		
+			
+				var graphYn1 = $.trim('[Date.UTC(2020, 7, 24), 104.7], [Date.UTC(2020, 7, 31), 104.9], [Date.UTC(2020, 8, 7), 105.1], [Date.UTC(2020, 8, 14), 105.3], [Date.UTC(2020, 8, 21), 105.5], [Date.UTC(2020, 9, 5), 105.7], [Date.UTC(2020, 9, 12), 105.9], [Date.UTC(2020, 9, 19), 106.2], [Date.UTC(2020, 9, 26), 106.5], [Date.UTC(2020, 10, 2), 106.8], [Date.UTC(2020, 10, 9), 107.1], [Date.UTC(2020, 10, 16), 107.5], [Date.UTC(2020, 10, 23), 108], [Date.UTC(2020, 10, 30), 108.4], [Date.UTC(2020, 11, 7), 108.8], [Date.UTC(2020, 11, 14), 109.3], [Date.UTC(2020, 11, 21), 109.7], [Date.UTC(2020, 11, 28), 110.2], [Date.UTC(2021, 0, 4), 110.6], [Date.UTC(2021, 0, 11), 111], [Date.UTC(2021, 0, 18), 111.4], [Date.UTC(2021, 0, 25), 111.9], [Date.UTC(2021, 1, 1), 112.4], [Date.UTC(2021, 1, 15), 113], [Date.UTC(2021, 1, 22), 113.5], [Date.UTC(2021, 2, 1), 114], [Date.UTC(2021, 2, 8), 114.5], [Date.UTC(2021, 2, 15), 114.9], [Date.UTC(2021, 2, 22), 115.4], [Date.UTC(2021, 2, 29), 115.8], [Date.UTC(2021, 3, 5), 116.2], [Date.UTC(2021, 3, 12), 116.6], [Date.UTC(2021, 3, 19), 116.9], [Date.UTC(2021, 3, 26), 117.3], [Date.UTC(2021, 4, 3), 117.6], [Date.UTC(2021, 4, 10), 118], [Date.UTC(2021, 4, 17), 118.4], [Date.UTC(2021, 4, 24), 118.8], [Date.UTC(2021, 4, 31), 119.3], [Date.UTC(2021, 5, 7), 119.8], [Date.UTC(2021, 5, 14), 120.2], [Date.UTC(2021, 5, 21), 120.7], [Date.UTC(2021, 5, 28), 121.2], [Date.UTC(2021, 6, 5), 121.6], [Date.UTC(2021, 6, 12), 122.1], [Date.UTC(2021, 6, 19), 122.6]') == '' ? false: true;
+				var graphYn2 = $.trim('[Date.UTC(2020, 7, 24), 0.23], [Date.UTC(2020, 7, 31), 0.19], [Date.UTC(2020, 8, 7), 0.18], [Date.UTC(2020, 8, 14), 0.2], [Date.UTC(2020, 8, 21), 0.19], [Date.UTC(2020, 9, 5), 0.2], [Date.UTC(2020, 9, 12), 0.18], [Date.UTC(2020, 9, 19), 0.25], [Date.UTC(2020, 9, 26), 0.28], [Date.UTC(2020, 10, 2), 0.3], [Date.UTC(2020, 10, 9), 0.3], [Date.UTC(2020, 10, 16), 0.37], [Date.UTC(2020, 10, 23), 0.43], [Date.UTC(2020, 10, 30), 0.4], [Date.UTC(2020, 11, 7), 0.4], [Date.UTC(2020, 11, 14), 0.47], [Date.UTC(2020, 11, 21), 0.35], [Date.UTC(2020, 11, 28), 0.41], [Date.UTC(2021, 0, 4), 0.34], [Date.UTC(2021, 0, 11), 0.41], [Date.UTC(2021, 0, 18), 0.4], [Date.UTC(2021, 0, 25), 0.39], [Date.UTC(2021, 1, 1), 0.46], [Date.UTC(2021, 1, 15), 0.51], [Date.UTC(2021, 1, 22), 0.48], [Date.UTC(2021, 2, 1), 0.46], [Date.UTC(2021, 2, 8), 0.4], [Date.UTC(2021, 2, 15), 0.38], [Date.UTC(2021, 2, 22), 0.4], [Date.UTC(2021, 2, 29), 0.38], [Date.UTC(2021, 3, 5), 0.36], [Date.UTC(2021, 3, 12), 0.29], [Date.UTC(2021, 3, 19), 0.33], [Date.UTC(2021, 3, 26), 0.32], [Date.UTC(2021, 4, 3), 0.28], [Date.UTC(2021, 4, 10), 0.32], [Date.UTC(2021, 4, 17), 0.28], [Date.UTC(2021, 4, 24), 0.39], [Date.UTC(2021, 4, 31), 0.38], [Date.UTC(2021, 5, 7), 0.42], [Date.UTC(2021, 5, 14), 0.39], [Date.UTC(2021, 5, 21), 0.36], [Date.UTC(2021, 5, 28), 0.42], [Date.UTC(2021, 6, 5), 0.35], [Date.UTC(2021, 6, 12), 0.38], [Date.UTC(2021, 6, 19), 0.41], ') == '' ? false: true;
+			
+				Highcharts.stockChart('containerStatc1', {
+					chart: {
+						
+							renderTo:'container',
+							defaultSeriesType: 'column',
+							width: divWidth,
+							pinchType : undefined
+						
+					},
+					credits: {
+						enabled: false
+					},
+					title: {
+						align: "right"
+						, text : "(2019.01.14=100.0)"
+						, style : { "font-size": "12px" }
+						, y : 0
+						, x : -7
+					},
+					
+					xAxis: {
+						labels: { //하단 날짜들의 라벨 형식
+							format: "{value: %Y.%m}",
+							step : 1,
+							rotation: -45,
+			                style: {
+			                    fontSize:"12px",
+			                    color:"#666666"
+			                }
+						},
+						
+							tickInterval : 24 * 3600 * 1000 * (7 * 4),
+						
+						crosshair: {
+							dashStyle: "dash"
+						},
+						gridLineWidth: 0,
+			            gridLineColor: "#d5d5d5"
+					},
+					yAxis: [
+						{
+							labels: {
+				                style: {
+				                    fontSize:"12px",
+				                    color:"#666666"
+				                },
+				                formatter: function () {
+				                	return this.value.toFixed(1);
+				                }
+							},
+							opposite : false,
+							gridLineWidth: 1,
+							showLastLabel: true
+						},
+						{
+							labels: {
+				                style: {
+				                    fontSize:"12px",
+				                    color:"#666666"
+				                },
+				                formatter: function () {
+				                	return this.value.toFixed(2)+" %";
+				                }
+							},
+							gridLineWidth: 1,
+							showLastLabel: true
+						}
+					],
+					legend: {
+						enabled: true,
+						align: 'center',
+						verticalAlign: 'top',
+						reversed: true
+					},
+					tooltip: {
+						shared: true,
+						useHTML: true,
+						formatter : function () {
+							var date = new Date(this.x);
+							var format;
+							format = date.getFullYear() + '.' + lpad(date.getMonth()+1, 2, '0');  //마우스 오버시 보여질 날짜
+							
+								format += '.' + lpad((date.getDate()), 2, '0'); 
+							
+							format += '<br/>'; 
+							$.each(this.points, function() {
+								if(this.series.name == '증감률%(우)') {
+									format += this.series.name;
+									format += ' <span style="color:'+this.color+'">' + (this.y == 0 ? "0.00" : this.y) + '%</span><br/>';
+								} else if(this.series.name == '지수(좌)') {
+									format += this.series.name;
+									format += ' <span style="color:'+this.color+'">' + (this.y == 0 ? "0.00" : this.y) + '</span><br/>';
+								}
+							});
+							return format;
+						},
+						backgroundColor: "rgba(255,255,255,0.9)",
+						borderColor : "#cfdae8",
+			            style: {
+			                'fontSize':'12px',
+			                'color':'#000000'
+			            }
+					},
+					navigation: {
+			            buttonOptions: {
+			                enabled: true,
+			                align: 'left',
+		                    symbolY: 14
+			            }
+			        }, 
+					navigator: {
+						enabled: false
+					},
+					scrollbar: {
+						enabled: false
+					},
+					rangeSelector: {
+						enabled: false
+					},
+					series: [
+						{
+							type: 'column',
+							color: '#b7f0b1',
+							name: '증감률%(우)',
+							tooltip: {
+								headerFormat: ''
+							},
+							data: [[Date.UTC(2020, 7, 24), 0.23], [Date.UTC(2020, 7, 31), 0.19], [Date.UTC(2020, 8, 7), 0.18], [Date.UTC(2020, 8, 14), 0.2], [Date.UTC(2020, 8, 21), 0.19], [Date.UTC(2020, 9, 5), 0.2], [Date.UTC(2020, 9, 12), 0.18], [Date.UTC(2020, 9, 19), 0.25], [Date.UTC(2020, 9, 26), 0.28], [Date.UTC(2020, 10, 2), 0.3], [Date.UTC(2020, 10, 9), 0.3], [Date.UTC(2020, 10, 16), 0.37], [Date.UTC(2020, 10, 23), 0.43], [Date.UTC(2020, 10, 30), 0.4], [Date.UTC(2020, 11, 7), 0.4], [Date.UTC(2020, 11, 14), 0.47], [Date.UTC(2020, 11, 21), 0.35], [Date.UTC(2020, 11, 28), 0.41], [Date.UTC(2021, 0, 4), 0.34], [Date.UTC(2021, 0, 11), 0.41], [Date.UTC(2021, 0, 18), 0.4], [Date.UTC(2021, 0, 25), 0.39], [Date.UTC(2021, 1, 1), 0.46], [Date.UTC(2021, 1, 15), 0.51], [Date.UTC(2021, 1, 22), 0.48], [Date.UTC(2021, 2, 1), 0.46], [Date.UTC(2021, 2, 8), 0.4], [Date.UTC(2021, 2, 15), 0.38], [Date.UTC(2021, 2, 22), 0.4], [Date.UTC(2021, 2, 29), 0.38], [Date.UTC(2021, 3, 5), 0.36], [Date.UTC(2021, 3, 12), 0.29], [Date.UTC(2021, 3, 19), 0.33], [Date.UTC(2021, 3, 26), 0.32], [Date.UTC(2021, 4, 3), 0.28], [Date.UTC(2021, 4, 10), 0.32], [Date.UTC(2021, 4, 17), 0.28], [Date.UTC(2021, 4, 24), 0.39], [Date.UTC(2021, 4, 31), 0.38], [Date.UTC(2021, 5, 7), 0.42], [Date.UTC(2021, 5, 14), 0.39], [Date.UTC(2021, 5, 21), 0.36], [Date.UTC(2021, 5, 28), 0.42], [Date.UTC(2021, 6, 5), 0.35], [Date.UTC(2021, 6, 12), 0.38], [Date.UTC(2021, 6, 19), 0.41], ],
+							yAxis: 1,
+							visible: graphYn2,
+							showInLegend: graphYn2
+						},
+						{
+							type: 'spline',
+							dashStyle: 'Solid',
+							color: '#61acf7',
+							tooltip: {
+								headerFormat: ''
+							},
+							name: '지수(좌)',
+							data: [[Date.UTC(2020, 7, 24), 104.7], [Date.UTC(2020, 7, 31), 104.9], [Date.UTC(2020, 8, 7), 105.1], [Date.UTC(2020, 8, 14), 105.3], [Date.UTC(2020, 8, 21), 105.5], [Date.UTC(2020, 9, 5), 105.7], [Date.UTC(2020, 9, 12), 105.9], [Date.UTC(2020, 9, 19), 106.2], [Date.UTC(2020, 9, 26), 106.5], [Date.UTC(2020, 10, 2), 106.8], [Date.UTC(2020, 10, 9), 107.1], [Date.UTC(2020, 10, 16), 107.5], [Date.UTC(2020, 10, 23), 108], [Date.UTC(2020, 10, 30), 108.4], [Date.UTC(2020, 11, 7), 108.8], [Date.UTC(2020, 11, 14), 109.3], [Date.UTC(2020, 11, 21), 109.7], [Date.UTC(2020, 11, 28), 110.2], [Date.UTC(2021, 0, 4), 110.6], [Date.UTC(2021, 0, 11), 111], [Date.UTC(2021, 0, 18), 111.4], [Date.UTC(2021, 0, 25), 111.9], [Date.UTC(2021, 1, 1), 112.4], [Date.UTC(2021, 1, 15), 113], [Date.UTC(2021, 1, 22), 113.5], [Date.UTC(2021, 2, 1), 114], [Date.UTC(2021, 2, 8), 114.5], [Date.UTC(2021, 2, 15), 114.9], [Date.UTC(2021, 2, 22), 115.4], [Date.UTC(2021, 2, 29), 115.8], [Date.UTC(2021, 3, 5), 116.2], [Date.UTC(2021, 3, 12), 116.6], [Date.UTC(2021, 3, 19), 116.9], [Date.UTC(2021, 3, 26), 117.3], [Date.UTC(2021, 4, 3), 117.6], [Date.UTC(2021, 4, 10), 118], [Date.UTC(2021, 4, 17), 118.4], [Date.UTC(2021, 4, 24), 118.8], [Date.UTC(2021, 4, 31), 119.3], [Date.UTC(2021, 5, 7), 119.8], [Date.UTC(2021, 5, 14), 120.2], [Date.UTC(2021, 5, 21), 120.7], [Date.UTC(2021, 5, 28), 121.2], [Date.UTC(2021, 6, 5), 121.6], [Date.UTC(2021, 6, 12), 122.1], [Date.UTC(2021, 6, 19), 122.6]],
+							visible: graphYn1,
+							showInLegend: graphYn1
+						}
+					]
+				});
+				
+				$('#containerStatc1').show();
+					
+			
+	});
+</script>
+
+			<div id="containerStatc1" class="graph_box" style="display: none" aria-hidden="true"></div>
+		
+															</div>
+														</div>
+														<!-- // trend_area --><!-- trend_area -->
+														<div class="trend_area" aria-hidden="true" tabindex="-1">
+															<h3>주간 매매시장 동향<span class="sub">(매수우위&#47;매매거래 지수)</span></h3>
+															<div class="msg_area type2 etc_icon">
+																<ul>
+																	<li>100을 기준으로 100을 넘을 경우:<br>매수자가 많음, 매매거래가 활발함</li>
+																</ul>
+															</div>
+															<div class="chart">
+																
+<script type="text/javascript">
+	
+	$(function() {
+	
+		
+			var divWidth = $('.chart').width();
+		
+	 		
+				var graphYn1 = $.trim('[Date.UTC(2020, 7, 24), 72.4], [Date.UTC(2020, 7, 31), 69.2], [Date.UTC(2020, 8, 7), 72.5], [Date.UTC(2020, 8, 14), 71.4], [Date.UTC(2020, 8, 21), 70.6], [Date.UTC(2020, 9, 5), 67.5], [Date.UTC(2020, 9, 12), 74], [Date.UTC(2020, 9, 19), 75.8], [Date.UTC(2020, 9, 26), 79.2], [Date.UTC(2020, 10, 2), 78.9], [Date.UTC(2020, 10, 9), 82], [Date.UTC(2020, 10, 16), 91.5], [Date.UTC(2020, 10, 23), 94.7], [Date.UTC(2020, 10, 30), 99.8], [Date.UTC(2020, 11, 7), 100.9], [Date.UTC(2020, 11, 14), 104.5], [Date.UTC(2020, 11, 21), 99.9], [Date.UTC(2020, 11, 28), 100.1], [Date.UTC(2021, 0, 4), 101.3], [Date.UTC(2021, 0, 11), 101.5], [Date.UTC(2021, 0, 18), 98.3], [Date.UTC(2021, 0, 25), 101.5], [Date.UTC(2021, 1, 1), 101.3], [Date.UTC(2021, 1, 15), 98.7], [Date.UTC(2021, 1, 22), 98.1], [Date.UTC(2021, 2, 1), 94.1], [Date.UTC(2021, 2, 8), 91.4], [Date.UTC(2021, 2, 15), 88.6], [Date.UTC(2021, 2, 22), 85.1], [Date.UTC(2021, 2, 29), 83], [Date.UTC(2021, 3, 5), 80.9], [Date.UTC(2021, 3, 12), 82.5], [Date.UTC(2021, 3, 19), 81.8], [Date.UTC(2021, 3, 26), 85.2], [Date.UTC(2021, 4, 3), 85.8], [Date.UTC(2021, 4, 10), 84.7], [Date.UTC(2021, 4, 17), 86], [Date.UTC(2021, 4, 24), 89.3], [Date.UTC(2021, 4, 31), 89], [Date.UTC(2021, 5, 7), 92.5], [Date.UTC(2021, 5, 14), 93.2], [Date.UTC(2021, 5, 21), 96.1], [Date.UTC(2021, 5, 28), 95.3], [Date.UTC(2021, 6, 5), 99.3], [Date.UTC(2021, 6, 12), 102.2], [Date.UTC(2021, 6, 19), 103]') == '' ? false: true;
+				var graphYn2 = $.trim('[Date.UTC(2020, 7, 24), 13.9], [Date.UTC(2020, 7, 31), 14.1], [Date.UTC(2020, 8, 7), 13.9], [Date.UTC(2020, 8, 14), 13.8], [Date.UTC(2020, 8, 21), 14.9], [Date.UTC(2020, 9, 5), 13.6], [Date.UTC(2020, 9, 12), 17.2], [Date.UTC(2020, 9, 19), 20], [Date.UTC(2020, 9, 26), 23.3], [Date.UTC(2020, 10, 2), 23.5], [Date.UTC(2020, 10, 9), 24.2], [Date.UTC(2020, 10, 16), 29.3], [Date.UTC(2020, 10, 23), 32.1], [Date.UTC(2020, 10, 30), 34.2], [Date.UTC(2020, 11, 7), 32.2], [Date.UTC(2020, 11, 14), 31.2], [Date.UTC(2020, 11, 21), 25], [Date.UTC(2020, 11, 28), 23.5], [Date.UTC(2021, 0, 4), 21.6], [Date.UTC(2021, 0, 11), 22.5], [Date.UTC(2021, 0, 18), 22.7], [Date.UTC(2021, 0, 25), 24.4], [Date.UTC(2021, 1, 1), 26.6], [Date.UTC(2021, 1, 15), 22.3], [Date.UTC(2021, 1, 22), 24.8], [Date.UTC(2021, 2, 1), 23.3], [Date.UTC(2021, 2, 8), 23.3], [Date.UTC(2021, 2, 15), 22.1], [Date.UTC(2021, 2, 22), 19.5], [Date.UTC(2021, 2, 29), 18.4], [Date.UTC(2021, 3, 5), 17.4], [Date.UTC(2021, 3, 12), 15.2], [Date.UTC(2021, 3, 19), 16], [Date.UTC(2021, 3, 26), 16.7], [Date.UTC(2021, 4, 3), 15.3], [Date.UTC(2021, 4, 10), 16.1], [Date.UTC(2021, 4, 17), 16.7], [Date.UTC(2021, 4, 24), 18.1], [Date.UTC(2021, 4, 31), 18.4], [Date.UTC(2021, 5, 7), 18.4], [Date.UTC(2021, 5, 14), 17.9], [Date.UTC(2021, 5, 21), 19.3], [Date.UTC(2021, 5, 28), 18.8], [Date.UTC(2021, 6, 5), 18], [Date.UTC(2021, 6, 12), 16], [Date.UTC(2021, 6, 19), 17.3]') == '' ? false: true;
+	
+				Highcharts.stockChart('containerStatc3', {
+					chart: {
+						
+							renderTo:'container',
+							defaultSeriesType: 'column',
+							width: divWidth,
+							pinchType : undefined
+						
+					},
+					credits: {
+						enabled: false
+					},
+					title: {
+						align: "right"
+						, text : ""
+						, style : { "font-size": "12px" }
+						, y : 0
+						, x : -7
+					},
+					xAxis: {
+						labels: { //하단 날짜들의 라벨 형식
+							format: "{value: %Y.%m}",
+							step : 1,
+							rotation: -45,
+			                style: {
+			                    fontSize:"12px",
+			                    color:"#666666"
+			                }
+						},
+						
+							tickInterval : 24 * 3600 * 1000 * (7 * 4),
+						
+						crosshair: {
+							dashStyle: "dash"
+						},
+						gridLineWidth: 0,
+			            gridLineColor: "#d5d5d5"
+					},
+					yAxis: {
+						labels: {
+			                style: {
+			                    fontSize:"12px",
+			                    color:"#666666"
+			                }
+						},
+						opposite : false,
+						gridLineWidth: 1,
+						showLastLabel: true
+					},
+					legend: {
+						enabled: true,
+						align: 'right',
+						verticalAlign: 'top'
+					},
+					tooltip: {
+						shared: true,
+						useHTML: true,
+						formatter : function () {
+							var date = new Date(this.x);
+							var format;
+							format = date.getFullYear() + '.' + lpad(date.getMonth()+1, 2, '0');  //마우스 오버시 보여질 날짜
+							
+								format += '.' + lpad((date.getDate()), 2, '0'); 
+							
+							format += '<br/>'; 
+							$.each(this.points, function() {
+								format += this.series.name;
+								format += ' <span style="color:'+this.color+'">' + this.y + '</span><br/>';
+							});
+							return format;
+						},
+						backgroundColor: "rgba(255,255,255,0.9)",
+						borderColor : "#cfdae8",
+			            style: {
+			                'fontSize':'12px',
+			                'color':'#000000'
+			            }
+					},
+					navigation: {
+			            buttonOptions: {
+			                enabled: true,
+			                align: 'left',
+		                    symbolY: 14
+			            }
+			        }, 
+					navigator: {
+						enabled: false
+					},
+					scrollbar: {
+						enabled: false
+					},
+					rangeSelector: {
+						enabled: false
+					},
+					series: [
+						{
+							type: 'spline',
+							dashStyle: 'Solid',
+							color: '#13cbc0',
+							tooltip: {
+								headerFormat: ''
+							},
+							name: '매수우위',
+							data: [[Date.UTC(2020, 7, 24), 72.4], [Date.UTC(2020, 7, 31), 69.2], [Date.UTC(2020, 8, 7), 72.5], [Date.UTC(2020, 8, 14), 71.4], [Date.UTC(2020, 8, 21), 70.6], [Date.UTC(2020, 9, 5), 67.5], [Date.UTC(2020, 9, 12), 74], [Date.UTC(2020, 9, 19), 75.8], [Date.UTC(2020, 9, 26), 79.2], [Date.UTC(2020, 10, 2), 78.9], [Date.UTC(2020, 10, 9), 82], [Date.UTC(2020, 10, 16), 91.5], [Date.UTC(2020, 10, 23), 94.7], [Date.UTC(2020, 10, 30), 99.8], [Date.UTC(2020, 11, 7), 100.9], [Date.UTC(2020, 11, 14), 104.5], [Date.UTC(2020, 11, 21), 99.9], [Date.UTC(2020, 11, 28), 100.1], [Date.UTC(2021, 0, 4), 101.3], [Date.UTC(2021, 0, 11), 101.5], [Date.UTC(2021, 0, 18), 98.3], [Date.UTC(2021, 0, 25), 101.5], [Date.UTC(2021, 1, 1), 101.3], [Date.UTC(2021, 1, 15), 98.7], [Date.UTC(2021, 1, 22), 98.1], [Date.UTC(2021, 2, 1), 94.1], [Date.UTC(2021, 2, 8), 91.4], [Date.UTC(2021, 2, 15), 88.6], [Date.UTC(2021, 2, 22), 85.1], [Date.UTC(2021, 2, 29), 83], [Date.UTC(2021, 3, 5), 80.9], [Date.UTC(2021, 3, 12), 82.5], [Date.UTC(2021, 3, 19), 81.8], [Date.UTC(2021, 3, 26), 85.2], [Date.UTC(2021, 4, 3), 85.8], [Date.UTC(2021, 4, 10), 84.7], [Date.UTC(2021, 4, 17), 86], [Date.UTC(2021, 4, 24), 89.3], [Date.UTC(2021, 4, 31), 89], [Date.UTC(2021, 5, 7), 92.5], [Date.UTC(2021, 5, 14), 93.2], [Date.UTC(2021, 5, 21), 96.1], [Date.UTC(2021, 5, 28), 95.3], [Date.UTC(2021, 6, 5), 99.3], [Date.UTC(2021, 6, 12), 102.2], [Date.UTC(2021, 6, 19), 103]],
+							visible: graphYn1,
+							showInLegend: graphYn1
+						},
+						{
+							type: 'spline',
+							dashStyle: 'Solid',
+							color: '#61acf7',
+							name: '매매거래',
+							tooltip: {
+								headerFormat: ''
+							},
+							data: [[Date.UTC(2020, 7, 24), 13.9], [Date.UTC(2020, 7, 31), 14.1], [Date.UTC(2020, 8, 7), 13.9], [Date.UTC(2020, 8, 14), 13.8], [Date.UTC(2020, 8, 21), 14.9], [Date.UTC(2020, 9, 5), 13.6], [Date.UTC(2020, 9, 12), 17.2], [Date.UTC(2020, 9, 19), 20], [Date.UTC(2020, 9, 26), 23.3], [Date.UTC(2020, 10, 2), 23.5], [Date.UTC(2020, 10, 9), 24.2], [Date.UTC(2020, 10, 16), 29.3], [Date.UTC(2020, 10, 23), 32.1], [Date.UTC(2020, 10, 30), 34.2], [Date.UTC(2020, 11, 7), 32.2], [Date.UTC(2020, 11, 14), 31.2], [Date.UTC(2020, 11, 21), 25], [Date.UTC(2020, 11, 28), 23.5], [Date.UTC(2021, 0, 4), 21.6], [Date.UTC(2021, 0, 11), 22.5], [Date.UTC(2021, 0, 18), 22.7], [Date.UTC(2021, 0, 25), 24.4], [Date.UTC(2021, 1, 1), 26.6], [Date.UTC(2021, 1, 15), 22.3], [Date.UTC(2021, 1, 22), 24.8], [Date.UTC(2021, 2, 1), 23.3], [Date.UTC(2021, 2, 8), 23.3], [Date.UTC(2021, 2, 15), 22.1], [Date.UTC(2021, 2, 22), 19.5], [Date.UTC(2021, 2, 29), 18.4], [Date.UTC(2021, 3, 5), 17.4], [Date.UTC(2021, 3, 12), 15.2], [Date.UTC(2021, 3, 19), 16], [Date.UTC(2021, 3, 26), 16.7], [Date.UTC(2021, 4, 3), 15.3], [Date.UTC(2021, 4, 10), 16.1], [Date.UTC(2021, 4, 17), 16.7], [Date.UTC(2021, 4, 24), 18.1], [Date.UTC(2021, 4, 31), 18.4], [Date.UTC(2021, 5, 7), 18.4], [Date.UTC(2021, 5, 14), 17.9], [Date.UTC(2021, 5, 21), 19.3], [Date.UTC(2021, 5, 28), 18.8], [Date.UTC(2021, 6, 5), 18], [Date.UTC(2021, 6, 12), 16], [Date.UTC(2021, 6, 19), 17.3]],
+							visible: graphYn2,
+							showInLegend: graphYn2
+						}
+					]
+				});
+				
+				$('#containerStatc3').show();
+					
+			
+	});
+</script>
+
+			<div id="containerStatc3" class="graph_box" style="display: none" aria-hidden="true"></div>
+		
+															</div>
+														</div>
+														<!-- // trend_area --><!-- trend_area -->
+														<div class="btn_wrap">
+															<a href="/quics?page=C060742" class="btn big type1 ico_plus">주간 KB주택시장동향 자료 더보기</a>
+														</div>
+														<!-- // trend_area -->
+													</div>
+												</div>
+												<!-- // card_box -->
+											</div>
+											<!-- // stat_analysis -->
+										</div>
+									</div>
+								</div>
+								<!-- // End: Content Wrap Area -->
+			                </div>
+			            </div>
+			        </div><!-- // tabs_slider_area type1 -->
+				</div><!-- // news_data -->
+			</div>
+		</div><!-- // content_inner -->
+	</div>
+
+</div>
+
+		</div>
+		<!--// Layout: CP -->
+
+		<div id="footerWrap">
+			<!-- Layout: FOOTER -->
+                                      <footer id="FOOTER"></footer>
+			<!--// Layout: FOOTER -->
+		</div>
+	</div>
+
+</body>
+</html>
