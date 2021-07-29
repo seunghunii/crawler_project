@@ -4,3 +4,4 @@ C:/Users/shic/Desktop/crawler_project/data_save/kb_land/original/매매가격_�
 C:/Users/shic/Desktop/crawler_project/data_save/kb_land/original/매매가격_변화율_original.csv filter=lfs diff=lfs merge=lfs -text
 C:/Users/shic/Desktop/crawler_project/data_save/kb_land/processed/매매가격_지수_preprocessed.csv filter=lfs diff=lfs merge=lfs -text
 C:/Users/shic/Desktop/crawler_project/data_save/kb_land/processed/매매가격_변화율_preprocessed.csv filter=lfs diff=lfs merge=lfs -text
+C:/Users/shic/Desktop/crawler_project/data_save/stock_price/stock_price_record.csv filter=lfs diff=lfs merge=lfs -text
