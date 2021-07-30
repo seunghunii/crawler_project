@@ -1,7 +1,4 @@
-data_save/estate_news/article_df.csv filter=lfs diff=lfs merge=lfs -text
-data_save/kb_land/kb_land_req_text.csv filter=lfs diff=lfs merge=lfs -text
-data_save/kb_land/original/매매가격_지수_original.csv filter=lfs diff=lfs merge=lfs -text
-data_save/kb_land/original/매매가격_변화율_original.csv filter=lfs diff=lfs merge=lfs -text
-data_save/kb_land/processed/매매가격_지수_preprocessed.csv filter=lfs diff=lfs merge=lfs -text
-data_save/kb_land/processed/매매가격_변화율_preprocessed.csv filter=lfs diff=lfs merge=lfs -text
-data_save/stock_price/stock_price_record.csv filter=lfs diff=lfs merge=lfs -text
+main/estate_news/dataa/article_df.csv filter=lfs diff=lfs merge=lfs -text
+main/kbland/dataa/meta/kb_land_req_text.csv filter=lfs diff=lfs merge=lfs -text
+main/stock/dataa/stock_price_record.csv filter=lfs diff=lfs merge=lfs -text
+main/kbland/dataa/original/** filter=lfs diff=lfs merge=lfs -text
