@@ -1,11 +1,5 @@
 import pandas as pd
-from selenium import webdriver
-import numpy as np
-from bs4 import BeautifulSoup
-import re
 import requests
-from time import sleep
-import json
 import multiprocessing as mp
 from multiprocessing import freeze_support
 
@@ -20,12 +14,15 @@ header = {
 crawler_shinhan = 'C:/Users/shic/Desktop/crawler_project/'
 crawler_seunghun = 'C:/Users/rsh15/Desktop/seunghuni/crawler_project/'
 
+data_dir = 'C:/Users/rsh15/Google Drive/crawler_data/kbland/meta/'
+
 # region code
-region_data = pd.read_csv(crawler_seunghun + 'data_save/kb_land/region_code.csv',
+region_data = pd.read_csv(data_dir + 'region_code.csv',
                           dtype = {'big_region_code' : str,
                                    'big_region_name' : str,
                                    'small_region_code' : str,
                                    'small_region_name' : str})
+region_data = region_data[region_data['big_region_name'].isin(['세종','제주/서귀포'])]
 
 # make date list([year,month])
 date_list = []
@@ -42,7 +39,7 @@ for year in range(2012,2022):
 
         date_list.append([year,month])
 
-base_url = 'https://onland.kbstar.com/quics?page=C060737&%EB%B2%95%EC%A0%95%EB%8F%99%EB%8C%80%EC%A7%80%EC%97%AD%EC%BD%94%EB%93%9C={}&%EB%B2%95%EC%A0%95%EB%8F%99%EC%A4%91%EC%A7%80%EC%97%AD%EC%BD%94%EB%93%9C={}&%EA%B8%B0%EC%A4%80%EB%85%84={}&%EA%B8%B0%EC%A4%80%EC%9B%94={}&QSL=F'
+base_url = 'https://onland.kbstar.com/quics?page=C060737&%EB%B2%95%EC%A0%95%EB%8F%99%EB%8C%80%EC%A7%80%EC%97%AD%EC%BD%94%EB%93%9C={}&%EA%B8%B0%EC%A4%80%EB%85%84={}&%EA%B8%B0%EC%A4%80%EC%9B%94={}&QSL=F'
 
 def kb_land_crawler(dates):
     year  = dates[0]
@@ -51,7 +48,6 @@ def kb_land_crawler(dates):
     df_list = []
     for region in region_data.iterrows():
         tmp_url = base_url.format(region[1]['big_region_code'],  # 대지역코드
-                                  region[1]['small_region_code'],  # 중지역코드
                                   year, month)
 
         # URL 접속
@@ -61,7 +57,7 @@ def kb_land_crawler(dates):
             'year'    : year,
             'month'   : month,
             'region_b': region[1]['big_region_name'],
-            'region_s': region[1]['small_region_name'],
+            'region_s': region[1]['big_region_name'],
             'req_text': tmp_req.text
         },index=[0])
 
@@ -74,4 +70,4 @@ if __name__ == '__main__':
     pool = mp.Pool(mp.cpu_count())
     result = pool.map(kb_land_crawler,date_list)
     result_df = pd.concat(result,axis=0)
-    result_df.to_csv(crawler_seunghun + 'data_save/kb_land/kb_land_req_text.csv',index=0)
+    result_df.to_csv(data_dir + 'seju_kb_land_req_text.csv',index=0)
