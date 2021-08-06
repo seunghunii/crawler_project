@@ -11,10 +11,10 @@ import random
 from multiprocessing import freeze_support
 
 date_list = []
-today = datetime.date(2021,7,15)
+today = datetime.date(2021,7,31)
 
 # 시간 차이를 구해서 기간의 날짜 수 만큼 range
-date_from_to = datetime.date(2021,7,15) - datetime.date(2012,1,1)
+date_from_to = datetime.date(2021,7,31) - datetime.date(2012,1,1)
 for num_day in range(1,(date_from_to.days)+1):
     tmp_date = today - datetime.timedelta(days = num_day)
     tmp_date = str(tmp_date).split(' ')[0].replace('-','.')
@@ -58,5 +58,5 @@ if __name__ == '__main__':
     result = pool.map(get_naver_news_url,urls_list)
     result_df = pd.DataFrame(sum(result,[]))
     result_df.columns = ['links']
-    result_df.to_csv('C:/Users/shic/Desktop/crawler_project/data_save/estate_news/article_links.csv',index=0)
+    result_df.to_csv('C:/Users/shic/Desktop/shinhan_simon/google_drive/crawler_data/estate_news/article_links.csv',index=0)
     # 9.39
