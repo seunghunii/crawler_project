@@ -8,7 +8,7 @@ from random import uniform
 import multiprocessing as mp
 from multiprocessing import freeze_support
 
-today = datetime.date(2021,7,31)
+today = datetime.date(2021,8,1)
 date_from_to = today - datetime.date(2012,1,1)
 
 header = {
@@ -25,16 +25,16 @@ urll = 'https://news.naver.com/main/list.naver?mode=LS2D&sid2=260&mid=shm&sid1=1
 
 def get_links(date):
     return_list = []
-    for pp in range(1,11):
+    tmpp = []
 
-        tmp_url = urll.format(date,pp)
+    tmp_url = urll.format(date)
+    reqq = requests.get(tmp_url,headers=header)
 
-        reqq = requests.get(tmp_url,headers=header)
+    time.sleep(uniform(0,1))
 
-        time.sleep(uniform(0,1))
+    soup = BeautifulSoup(reqq.text, 'html.parser')
 
-        soup = BeautifulSoup(reqq.text, 'html.parser')
-
+    if soup.find('div',class_='paging') == '':
         soup_main_content = soup.find('div',id='main_content')
         if soup_main_content == '':
             pass
@@ -42,9 +42,24 @@ def get_links(date):
             find_link = soup_main_content.find_all('a',href=re.compile('^https://news.naver.com/main/read.naver?'))
             for fl in find_link:
                 return_list.append(fl['href'])
+    else:
+        page_list = soup.find('div',class_='paging').find_all('a',class_='nclicks(fls.page)')
 
-        if pp == 5:
-            time.sleep(uniform(1,3))
+        for pp in range(1,len(page_list)+2):
+            tmp_url = urll.format(date) + '&page=' + str(pp)
+            reqq = requests.get(tmp_url, headers=header)
+
+            soup = BeautifulSoup(reqq.text, 'html.parser')
+
+            soup_main_content = soup.find('div',id='main_content')
+            if soup_main_content == '':
+                pass
+            else:
+                find_link = soup_main_content.find_all('a',href=re.compile('^https://news.naver.com/main/read.naver?'))
+                for fl in find_link:
+                    return_list.append(fl['href'])
+
+    time.sleep(uniform(1,3))
 
     return return_list
 
@@ -54,4 +69,4 @@ if __name__ == '__main__':
     result = pool.map(get_links,date_list)
     result_df = pd.DataFrame(sum(result,[]))
     result_df.columns = ['links']
-    result_df.to_csv('C:/Users/rsh15/Google Drive/crawler_data/estate_news/new/naver_news_article_links.csv',index=0)
+    result_df.to_csv('C:/Users/rsh15/Google Drive/crawler_data/estate_news/new/naver_news_article_links_new.csv',index=0)
