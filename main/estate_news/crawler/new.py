@@ -34,7 +34,7 @@ def get_links(date):
 
     soup = BeautifulSoup(reqq.text, 'html.parser')
 
-    if soup.find('div',class_='paging') == '':
+    if soup.find('div',class_='paging') is None:
         soup_main_content = soup.find('div',id='main_content')
         if soup_main_content == '':
             pass
