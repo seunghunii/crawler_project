@@ -4,7 +4,7 @@ import requests
 import re
 import multiprocessing as mp
 
-links_df = pd.read_csv('C:/Users/rsh15/Google Drive/crawler_data/estate_news/article_links.csv')
+links_df = pd.read_csv('C:/Users/shic/Desktop/shinhan_simon/google_drive/crawler_data/estate_news/article_links_after715.csv')
 
 base_url = 'https://search.naver.com/search.naver?where=news&query=%EB%B6%80%EB%8F%99%EC%82%B0114&sm=tab_opt&sort=0&photo=0&field=0&pd=3&ds={}&de={}&start={}'
 header = {
@@ -47,7 +47,7 @@ def estate_news_crawler(url_now):
             return_dict['article_writer'] = 'no article writer'
         elif soup.find_all('div',class_='press_logo')[0].find_all(
                 'img',src=re.compile('^https://mimgnews.pstatic.net/')) == []:
-            return_dict['article_writer'] = 'no articlewriter'
+            return_dict['article_writer'] = 'no article writer'
         else:
             return_dict['article_writer'] = soup.find('div',class_='press_logo').find(
                 'img',src=re.compile('^https://mimgnews.pstatic.net/'))['title']
@@ -64,5 +64,5 @@ if __name__ == '__main__':
     pool = mp.Pool(mp.cpu_count())
     result = pool.map(estate_news_crawler,links_df['links'])
     result_df = pd.DataFrame(result)
-    result_df.to_csv('C:/Users/rsh15/Google Drive/crawler_data/estate_news/article_df2.csv',index=0)
+    result_df.to_csv('C:/Users/shic/Desktop/shinhan_simon/google_drive/crawler_data/estate_news/article_df_after715.csv',index=0)
 

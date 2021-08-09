@@ -4,7 +4,7 @@ import requests
 import re
 import multiprocessing as mp
 
-links_df = pd.read_csv('C:/Users/rsh15/Google Drive/crawler_data/estate_news/new/naver_news_article_links_new.csv')
+links_df = pd.read_csv('C:/Users/shic/Desktop/shinhan_simon/google_drive/crawler_data/estate_news/new/naver_news_article_links_new.csv')
 unique_links = links_df['links'].unique().tolist()
 
 header = {
@@ -62,8 +62,8 @@ def estate_news_crawler(url_now):
 
 if __name__ == '__main__':
     pool = mp.Pool(mp.cpu_count())
-    result = pool.map(estate_news_crawler,links_df['links'])
+    result = pool.map(estate_news_crawler,unique_links)
     result_df = pd.DataFrame(result)
-    result_df.to_csv('C:/Users/rsh15/Google Drive/crawler_data/estate_news/new/naver_news_article_df.csv',
+    result_df.to_csv('C:/Users/shic/Desktop/shinhan_simon/google_drive/crawler_data/estate_news/new/naver_news_article_df.csv',
                      index=0,encoding='UTF-8-sig')
 
