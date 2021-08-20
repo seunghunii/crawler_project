@@ -3,7 +3,7 @@ import numpy as np
 from bs4 import BeautifulSoup
 import re
 
-def data_from_graph1(datum):
+def price_data_from_graph1(datum):
 
     # 기준일자 파싱.
     ref_date_detect = re.search('<p class="date">(.+?)</p>', datum['req_text'])
@@ -13,7 +13,7 @@ def data_from_graph1(datum):
     else:
         ref_date = re.sub('<.*?>', '',ref_date_detect[0], re.S)
 
-    # (2019.01.14=100.0) 형태로 되어 있는 지수의 기준일자 파싱
+    # (2019.01.14=100.0) 형태로 되어 있는 지수의 기준일자 파싱.
     date_100_detect = re.search('\(\d{,4}.\d{,2}.\d{,2}=100.0\)',datum['req_text'],re.S)
 
     if date_100_detect is None:
@@ -21,9 +21,7 @@ def data_from_graph1(datum):
     else:
         date_100 = date_100_detect[0]
 
-    # 페이지에 상단, 하단 두 개의 그래프가 있음.
-    # 상단의 그래프 데이터만을 파싱하기 위해
-    # 하단 그래프의 제목 인덱스 전까지의 텍스트를 활용.
+    # 페이지에 상단, 하단 두 개의 그래프가 있습니다.
     divider = '<h3>주간 매매시장 동향<span class="sub">'
     divider_idx1 = datum['req_text'].find(divider)
     req_text_parse1 = datum['req_text'][0:divider_idx1]
@@ -88,7 +86,7 @@ def data_from_graph1(datum):
 
         return return_df_with_data
 
-def data_from_graph2(datum):
+def price_data_from_graph2(datum):
     
     # 기준일자 파싱.
     ref_date_detect = re.search('<p class="date">(.+?)</p>', datum['req_text'])
@@ -107,7 +105,6 @@ def data_from_graph2(datum):
         date_100 = date_100_detect[0]
 
     # 페이지에 상단, 하단 두 개의 그래프가 있음.
-    # 상단의 그래프 데이터만을 파싱하기 위해
     # 하단 그래프의 제목 인덱스 전까지의 텍스트를 활용.
     divider = '<h3>주간 매매시장 동향<span class="sub">'
     divider_idx2 = datum['req_text'].find(divider)
